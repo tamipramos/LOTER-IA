@@ -67,32 +67,7 @@ predict
 > all
 ```
 
-## 🧪 Unit Tests
 
-A complete test suite with 29 test cases is included.
-
-### Running Tests
-
-```bash
-# Run all tests with verbose output
-python -m unittest test_lottery -v
-
-# Run tests for a specific module
-python -m unittest test_lottery.TestLottery -v
-
-# Run a single test
-python -m unittest test_lottery.TestLottery.test_lottery_creation -v
-```
-
-### Test Coverage
-
-- ✅ **Lottery**: Data model for lottery records (7 tests)
-- ✅ **Helpers**: Parsing and utility functions (6 tests)
-- ✅ **SQLiteController**: Database controller (5 tests)
-- ✅ **NumberPredictor**: LSTM ML model (8 tests)
-- ✅ **Integration**: Complete workflow (1 test)
-
-**Result**: ✅ 29/29 tests passing
 
 ## 📊 Project Structure
 
@@ -122,18 +97,6 @@ LOTER-IA/
 - **pyfiglet**: ASCII art for banners
 
 See `requirements.txt` for the complete list.
-
-## 🔒 Security
-
-**Status**: ✅ SAFE FOR GIT
-
-- ✅ No hardcoded credentials
-- ✅ No API keys
-- ✅ No sensitive information
-- ✅ Public dependencies verified
-- ✅ `.gitignore` properly configured
-
-See [SECURITY_AUDIT.md](SECURITY_AUDIT.md) for full security report.
 
 ## 📈 Available Models
 
@@ -179,7 +142,3 @@ Developed as an educational project for Machine Learning and Web Scraping.
 
 To report issues or suggestions, please open an issue on GitHub. Note that responses may be limited as this project is not actively maintained.
 
----
-
-**Last updated**: January 19, 2026  
-**Status**: ✅ Tests Passing | ✅ Safe for Git | ⚠️ No Longer Maintained | 📖 Free to Use (with Attribution)
