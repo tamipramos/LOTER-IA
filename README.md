@@ -119,9 +119,9 @@ An independent model is trained for each lottery type:
 
 Contributions are welcome! Please follow these steps:
 1. Fork the project
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create a feature branch (`git checkout -b feature/feature_name`)
+3. Commit your changes (`git commit -m 'Add some features'`)
+4. Push to the branch (`git push origin feature/feature_name`)
 5. Open a Pull Request
 
 ## 📝 License
